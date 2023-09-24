@@ -26,22 +26,26 @@
   <body>
     <!-- Header section -->
     <header class="header">
-      <div class="container">
+      <div class="container header-container">
         <nav class="navigation">
           <a class="logo link" href="./index.html"
-            >Web <span class="logo-text">Studio</span>
+            >Web<span class="logo-text">Studio</span>
           </a>
-          <ul class="header-menu-list list">
-            <li class="header-item">
-              <a class="header-link link" href="./index.html">Studio</a>
-            </li>
-            <li class="header-item">
-              <a class="header-link link" href="./portfolio.html">Portfolio</a>
-            </li>
-            <li class="header-item">
-              <a class="header-link link" href="">Contacts</a>
-            </li>
-          </ul>
+          <div class="header-navigation">
+            <ul class="header-menu-list list">
+              <li class="header-item">
+                <a class="header-link link" href="./index.html">Studio</a>
+              </li>
+              <li class="header-item">
+                <a class="header-link link" href="./portfolio.html"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="header-item">
+                <a class="header-link link" href="">Contacts</a>
+              </li>
+            </ul>
+          </div>
         </nav>
 
         <address class="contact">
@@ -64,11 +68,11 @@
     </header>
 
     <main>
-      <div class="container">
-        <!-- Content section 1 -->
-        <section class="content">
+      <!-- Content section 1 -->
+      <section class="hero-menu">
+        <div class="container container-menu">
           <!-- Hero section -->
-          <h1 class="hero-title">selection</h1>
+          <h1 class="visually-hidden">selection</h1>
           <ul class="hero-list list">
             <li class="hero-item">
               <button class="hero-btn" type="button">All</button>
@@ -86,7 +90,12 @@
               <button class="hero-btn" type="button">Marketing</button>
             </li>
           </ul>
-          <!--foto-->
+        </div>
+      </section>
+
+      <!--foto-->
+      <section class="content">
+        <div class="container">
           <ul class="content-list list">
             <li class="content-item">
               <a class="content-link link" href="">
@@ -183,15 +192,15 @@
               </a>
             </li>
           </ul>
-        </section>
-      </div>
+        </div>
+      </section>
     </main>
 
     <!-- Footer -->
     <footer class="footer">
-      <div class="container">
+      <div class="container footer-container">
         <a class="logo link" href="./index.html"
-          >Web <span class="logo-footer">Studio</span>
+          >Web<span class="logo-footer">Studio</span>
         </a>
         <p class="footer-text">
           Increase the flow of customers and sales for your business with

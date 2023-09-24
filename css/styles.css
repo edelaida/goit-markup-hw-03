@@ -82,7 +82,16 @@ display: flex;
 
 /* *************** HERO ********* */
 
-.hero-list {}
+.container-menu {
+    display: flex;    
+    padding-top: 96px;
+    padding-bottom: 72px;
+    /*align-items: center;*/
+}
+.hero-list {
+    display: flex;
+    gap: 24px;      
+}
 .hero-item {}
 
 .hero-btn {
@@ -93,8 +102,9 @@ display: flex;
         line-height: 1.5;
         letter-spacing: 0.04em;
         background-color: var(--text-footer);
-        text-align: center;  
-        display: flex;
+        padding: 12px 24px;
+        /*text-align: center;  
+        display: flex;*/
     }
 
 .hero-btn:hover,
@@ -151,9 +161,16 @@ background-color: var(--bakgr-footer);
 
 .content {}
 
-.content-list {}
+.content-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
 
-.content-item {}
+.content-item {
+    width: 360px;
+    outline: solid rgb(128, 126, 0);
+}
 .content-link {}
 
 .subject {
@@ -175,10 +192,12 @@ background-color: var(--bakgr-footer);
 }
 
 /* *************** CONTENT Web Studio ********* */
-.description {}
+.description {
+   
+}
 .description-list {
     display: flex;
-    gap: 24px;
+    gap: 24px;    
 }
 
 .description-item {}
@@ -211,7 +230,10 @@ background-color: var(--bakgr-footer);
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
-.doing-list {}
+.doing-list {
+    display: flex;
+    gap: 24px;
+}
 .doing-item {}
 
 .team {
@@ -227,7 +249,10 @@ background-color: var(--bakgr-footer);
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
-.team-list {}
+.team-list {
+display: flex;
+    gap: 24px;
+}
 .team-item {
     background-color: var(--title-one);
 }
@@ -245,9 +270,9 @@ background-color: var(--bakgr-footer);
 
 .footer-container {
   display: flex;
-  /*flex-direction: column;*/
   padding-top: 50px;
-  
+   flex-direction: column;
+   
 }
 
 .logo-footer {
@@ -258,8 +283,9 @@ background-color: var(--bakgr-footer);
      color:var(--text-footer); 
     /*display: flex; */
     max-width: 264px;
-    
+    margin-top: 18px;
     outline: solid rgb(128, 126, 0);
+    
 }
 
   /*outline: solid rgb(128, 126, 0);
