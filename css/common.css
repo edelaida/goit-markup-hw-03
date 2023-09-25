@@ -19,12 +19,15 @@ body {
     letter-spacing: 0.02em;
     background-color: #FFFFFF;
 }
+img {
+    display: block;
+}
 .container {
     width: 1158px; 
     outline: solid red;
     margin: 0 auto;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
 
 }
 .visually-hidden {
