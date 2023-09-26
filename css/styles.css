@@ -49,6 +49,7 @@
     color: #404bbf;
 }
 .contact {   
+    text-decoration: none;
     margin-left: 330px;   
 }
 .header-socials {    
@@ -60,8 +61,10 @@
     padding-bottom: 24px;
 }
 .header-social-link{
+
     padding-top: 24px;
     padding-bottom: 24px;
+    font-style: normal;
 }
 .header-social-link:hover,
 .header-social-link:focus {
